@@ -52,7 +52,11 @@ int main2() {
 			cout << "NO" << endl;
 		}
 	}
-	cout << "YES" << endl;
+	if(stk.empty()){
+		cout << "YES" << endl;
+	}else{
+		cout << "NO" << endl;
+	}
 	return 0;
 }
 
